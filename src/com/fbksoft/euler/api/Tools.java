@@ -18,6 +18,15 @@ public class Tools {
 		return result;
 	}
 	
+	public static boolean isPrime(Long n) {
+		for(Long i = 2L; i <= Math.sqrt(n); i++) {
+			if (n%i==0) {
+				return false;
+			}
+		}
+		return true;
+	}
+	
 	
 	public static List<Long> getPrimeDecomposition(long i) {
 		ArrayList<Long> decomposition = new ArrayList<>();

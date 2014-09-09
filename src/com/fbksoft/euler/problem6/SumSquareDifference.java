@@ -15,7 +15,13 @@ public class SumSquareDifference {
 
 	public static void main(String[] args) {
 		
+		int n = 100;
+		// This one is purely solved mathemetically, by developping the formulas. Doing it with bruteforce is too boring.
 		
+		int result = (int)(3*Math.pow(n, 4) + 2*Math.pow(n, 3) - 3*Math.pow(n, 2) - 2*n) / 12;
+		System.out.println(result);		
+		
+	
 		
 	}
 	
