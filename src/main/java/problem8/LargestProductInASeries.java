@@ -35,7 +35,7 @@ public class LargestProductInASeries extends EulerProblem {
 	}
 	
 	@Override
-	public Object getSolution() {
+	public String getSolution() {
 		
 		int length = 13;
 		

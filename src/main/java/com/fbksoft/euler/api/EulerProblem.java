@@ -2,7 +2,7 @@ package com.fbksoft.euler.api;
 
 public abstract class EulerProblem {
 
-	public abstract Object getSolution();
+	public abstract <S> S getSolution();
 
 	public void execute() {
 		long t1 = System.currentTimeMillis();

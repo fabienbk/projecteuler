@@ -17,7 +17,8 @@ public class Tools {
 		}
 		return result;
 	}
-	
+
+
 	public static boolean isPrime(Long n) {
 		if (n == 1) {
 			return false;

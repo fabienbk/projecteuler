@@ -14,7 +14,7 @@ public class SpecialPythagoreanTriplet extends EulerProblem {
 	 */
 
 	@Override
-	public Object getSolution() {
+	public Integer getSolution() {
 
 		for (int a = 1; a < 1000; a++) {
 			for (int b = a; b < 1000; b++) {
@@ -24,8 +24,7 @@ public class SpecialPythagoreanTriplet extends EulerProblem {
 				}
 			}
 		}
-
-		return "not found";
+		throw new RuntimeException("not found");
 	}
 
 	public static void main(String[] args) {
