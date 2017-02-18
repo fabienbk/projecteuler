@@ -7,7 +7,7 @@ import scala.util.control.Breaks._
 /**
   * Created by Fabien Benoit-Koch on 10/02/2017.
   */
-object Prob14 extends App {
+object LongestCollatzSequence extends App {
 
   var chain = Map[Long, Long](1L -> 1L)
 

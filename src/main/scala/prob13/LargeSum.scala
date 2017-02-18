@@ -5,7 +5,7 @@ import scala.io.Source
 /**
   * Created by Fabien Benoit-Koch on 10/02/2017.
   */
-object Prob13 extends App {
+object LargeSum extends App {
 
   val filename = "src/prob13/data"
 

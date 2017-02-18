@@ -6,7 +6,7 @@ import scala.io.Source
 /**
   * Highly divisible triangular number
   */
-object Prob12 extends App {
+object HighlyDivisibleTriangularNumber extends App {
 
   var divisors = 0
   var num : Int = 0

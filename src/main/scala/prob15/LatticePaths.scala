@@ -1,13 +1,9 @@
 package prob15
 
-import scala.collection.mutable
-import scala.collection.mutable.Map
-import scala.util.control.Breaks._
-
 /**
   * Created by Fabien Benoit-Koch on 10/02/2017.
   */
-object Prob15 extends App {
+object LatticePaths extends App {
 
   val size = 3
 

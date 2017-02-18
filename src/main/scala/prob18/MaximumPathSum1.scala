@@ -2,7 +2,7 @@ package prob18
 
 import scala.io.Source
 
-object Prob18 extends App {
+object MaximumPathSum1 extends App {
   val filename = "src/prob18/data"
 
   val lines : Array[String] = Source.fromFile(filename).getLines().to

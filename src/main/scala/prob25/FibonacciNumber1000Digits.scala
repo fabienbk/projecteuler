@@ -8,7 +8,7 @@ import scala.io.Source
 /**
   * Created by Fabien Benoit-Koch on 10/02/2017.
   */
-object Prob25 extends App {
+object FibonacciNumber1000Digits extends App {
 
   val Zero = BigInt(0)
 

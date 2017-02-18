@@ -4,7 +4,7 @@ import scala.collection.immutable.Seq
 /**
   * Created by Fabien Benoit-Koch on 10/02/2017.
   */
-object Prob17 extends App {
+object NumberLetterCounts extends App {
 
   val digits  = List("zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
     "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen")

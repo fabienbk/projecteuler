@@ -1,6 +1,6 @@
 package prob19
 
-object Prob19 extends App {
+object CountingSundays extends App {
 
   val monthDays = Array(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
 

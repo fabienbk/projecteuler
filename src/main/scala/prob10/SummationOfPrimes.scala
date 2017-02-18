@@ -5,7 +5,7 @@ import common.Primes
 /**
   * Created by Fabien Benoit-Koch on 10/02/2017.
   */
-object Prob10 extends App {
+object SummationOfPrimes extends App {
 
 
   var sum = 0L

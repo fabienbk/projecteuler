@@ -6,7 +6,7 @@ import scala.io.Source
 /**
   * Created by Fabien Benoit-Koch on 10/02/2017.
   */
-object Prob11 extends App {
+object LargestProductInAGrid extends App {
 
   val buffer = ListBuffer[ListBuffer[Int]]()
   def value(x : Int)(y: Int) = try { buffer(x)(y) } catch { case _ : Throwable => 0 }
