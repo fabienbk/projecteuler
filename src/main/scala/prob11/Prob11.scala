@@ -9,7 +9,7 @@ import scala.io.Source
 object Prob11 extends App {
 
   val buffer = ListBuffer[ListBuffer[Int]]()
-  def value(x : Int)(y: Int) = try { buffer(x)(y) } catch { case _ => 0 }
+  def value(x : Int)(y: Int) = try { buffer(x)(y) } catch { case _ : Throwable => 0 }
 
   val filename = "src/prob11/data"
   for (line <- Source.fromFile(filename).getLines()) {
