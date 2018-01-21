@@ -16,8 +16,13 @@ object SummationOfPrimes extends App {
   }
  
   /* This is problably better done with a fold  */
-  
-  Range(1, 2000000).filter(Primes.isPrime _).sum
+
+  sum = Range(1, 2000000).filter(Primes.isPrime _).foldLeft(_+_)
+ 
+  /* Or even better */
+ 
+  def isPrime = Primes.isPrime
+  sum = Range(1, 2000000).filter(isPrime _).sum
 
   
   
