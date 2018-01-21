@@ -22,6 +22,13 @@ object SummationOfPrimes extends App {
   
   
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
   println(sum)
 
